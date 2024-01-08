@@ -24,7 +24,7 @@ public class PwdService {
 	
 	
 	public static void main(String[] args) {
-		String value=PwdService.encode("prakash Mohanty");
+		String value=PwdService.encode("puttun");
 		System.out.println(value);
 		
 		String decode=PwdService.decode(value);
